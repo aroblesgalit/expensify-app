@@ -54,7 +54,7 @@ test('should edit an expense by id', () => {
     expect(state[1].amount).toBe(amount);
 });
 
-test('should not edit expense if expense not found', () => {
+test('should not edit expense if id not found', () => {
     const amount = 122000;
     const action = {
         type: 'EDIT_EXPENSE',
