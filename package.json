@@ -40,6 +40,7 @@
   },
   "devDependencies": {
     "css-loader": "^2.1.0",
+    "enzyme-to-json": "^3.0.1",
     "jest": "^20.0.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
